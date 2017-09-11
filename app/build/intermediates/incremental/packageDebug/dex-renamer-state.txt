@@ -1,4 +1,7 @@
-#Sat Sep 09 13:45:54 JST 2017
-base.0=C\:\\github\\IrairaBar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Mon Sep 11 21:15:48 JST 2017
+base.0=C\:\\github\\IrairaBar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6bba01fa11a0a8849e7dba135e2b9d67b86a0a6d
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=C\:\\github\\IrairaBar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.1=C\:\\github\\IrairaBar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0bceee728a2667db0245503363526423ba3ada78\\classes.dex
+base.1=C\:\\github\\IrairaBar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0bceee728a2667db0245503363526423ba3ada78
+file.0=C\:\\github\\IrairaBar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6bba01fa11a0a8849e7dba135e2b9d67b86a0a6d\\classes.dex

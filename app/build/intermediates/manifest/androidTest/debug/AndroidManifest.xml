@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.dixq.irairabar.test">
+    package="com.example.a0174.irairabar.test" >
 
-    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10" />
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="26" />
+
+    <instrumentation
+        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.example.a0174.irairabar"
+        android:targetPackage="com.example.a0174.irairabar" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
-    <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="net.dixq.irairabar"
-                     android:handleProfiling="false"
-                     android:functionalTest="false"
-                     android:label="Tests for net.dixq.irairabar"/>
 </manifest>

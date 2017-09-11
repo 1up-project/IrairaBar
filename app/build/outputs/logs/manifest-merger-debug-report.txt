@@ -1,48 +1,85 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:3:5-33
+		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
 		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
-		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
-	android:versionCode
-		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
 		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
+		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\0174\.android\build-cache\9c2169d2d4e1e6a344d133a587452eac099e8cc7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\0174\.android\build-cache\74281cdc4768d03d9205177020f25eb210139e38\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\0174\.android\build-cache\d056296de803cb3dd075f1023c5f02cc753a89f1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\0174\.android\build-cache\50464fef17d3f526777b816c8a06025a350fbc31\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\0174\.android\build-cache\57d1933dc5230d00356b52fc3face4e355abf72e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\0174\.android\build-cache\f0b3a673b68ed00cde0c98a627a2b26ad85e2784\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\0174\.android\build-cache\12b51e71b47a8fd2d24d86edacf4b6bff08ed3ce\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\0174\.android\build-cache\6c729d3ed48f5272f4c99fd495d258e3ab6ab22b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\0174\.android\build-cache\c14a906b7f4c4bd0949f1f8ba2c7f0ae5dc19767\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\0174\.android\build-cache\32e00f25ef39c44923cb3e5849693c50efab060e\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:8:9-54
+	android:icon
+		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:6:9-43
+	android:theme
+		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:9:9-40
+activity#com.example.a0174.irairabar.IrairaBarActivity
+ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:11:13-45
+	android:name
+		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:12:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:16:27-74
 uses-sdk
-ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:7:5-44
+INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\0174\.android\build-cache\9c2169d2d4e1e6a344d133a587452eac099e8cc7\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\0174\.android\build-cache\74281cdc4768d03d9205177020f25eb210139e38\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\0174\.android\build-cache\d056296de803cb3dd075f1023c5f02cc753a89f1\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\0174\.android\build-cache\50464fef17d3f526777b816c8a06025a350fbc31\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\0174\.android\build-cache\57d1933dc5230d00356b52fc3face4e355abf72e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\0174\.android\build-cache\f0b3a673b68ed00cde0c98a627a2b26ad85e2784\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\0174\.android\build-cache\12b51e71b47a8fd2d24d86edacf4b6bff08ed3ce\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\0174\.android\build-cache\6c729d3ed48f5272f4c99fd495d258e3ab6ab22b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\0174\.android\build-cache\c14a906b7f4c4bd0949f1f8ba2c7f0ae5dc19767\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\0174\.android\build-cache\32e00f25ef39c44923cb3e5849693c50efab060e\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\0174\.android\build-cache\9c2169d2d4e1e6a344d133a587452eac099e8cc7\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
 		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:7:15-41
 		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
 		INJECTED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml
-application
-ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:9:5-21:19
-	android:label
-		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:11:9-41
-	android:icon
-		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:10:9-45
-activity#net.dixq.irairabar.IrairaBarActivity
-ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:12:9-20:20
-	android:label
-		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:13:13-45
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\0174\.android\build-cache\9c2169d2d4e1e6a344d133a587452eac099e8cc7\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\0174\.android\build-cache\74281cdc4768d03d9205177020f25eb210139e38\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\0174\.android\build-cache\d056296de803cb3dd075f1023c5f02cc753a89f1\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\0174\.android\build-cache\50464fef17d3f526777b816c8a06025a350fbc31\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\0174\.android\build-cache\57d1933dc5230d00356b52fc3face4e355abf72e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\0174\.android\build-cache\f0b3a673b68ed00cde0c98a627a2b26ad85e2784\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\0174\.android\build-cache\12b51e71b47a8fd2d24d86edacf4b6bff08ed3ce\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\0174\.android\build-cache\6c729d3ed48f5272f4c99fd495d258e3ab6ab22b\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\0174\.android\build-cache\c14a906b7f4c4bd0949f1f8ba2c7f0ae5dc19767\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\0174\.android\build-cache\9c2169d2d4e1e6a344d133a587452eac099e8cc7\output\AndroidManifest.xml:27:9-38
 	android:name
-		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:14:13-46
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:15:13-19:29
-action#android.intent.action.MAIN
-ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:16:17-69
-	android:name
-		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:16:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:18:17-77
-	android:name
-		ADDED from C:\github\IrairaBar\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\0174\.android\build-cache\9c2169d2d4e1e6a344d133a587452eac099e8cc7\output\AndroidManifest.xml:26:9-47

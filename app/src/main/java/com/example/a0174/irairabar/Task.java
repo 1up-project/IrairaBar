@@ -1,3 +1,5 @@
+package com.example.a0174.irairabar;
+
 import android.graphics.Canvas;
 
 /**
@@ -9,7 +11,7 @@ public abstract class Task {
     public boolean onUpdate() {
         return true;
     }
-    
+
     public void onDraw(Canvas c) {
     }
 }
