@@ -16,6 +16,7 @@ public class GameMgr {
     private LinkedList<Task> _taskList = new LinkedList<Task>(); // タスクリスト
 
     GameMgr(){
+        _taskList.add(new Player());
         _taskList.add(new FpsController());
     }
 
