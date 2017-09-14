@@ -18,8 +18,8 @@ import android.view.SurfaceView;
  */
 
 class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callback, Runnable {
-    GameMgr _gameMgr = new GameMgr();
-    Thread _thread;
+    private GameMgr _gameMgr = new GameMgr();
+    private Thread _thread;
 
     public GameSurfaceView(Context context) {
         super(context);
@@ -52,10 +52,6 @@ class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callback, Run
 
     private void onDraw (SurfaceHolder holder) {
         Canvas c = holder.lockCanvas();
-        if (c == null){
-            return;
-        }
-        // ここにゲームの描画処理を書いていく
         _gameMgr.onDraw(c);
         holder.unlockCanvasAndPost(c);
     }

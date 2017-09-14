@@ -1,4 +1,4 @@
-#Thu Sep 14 10:28:28 JST 2017
+#Thu Sep 14 20:55:56 JST 2017
 base.0=C\:\\github\\IrairaBar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6bba01fa11a0a8849e7dba135e2b9d67b86a0a6d
 renamed.1=classes2.dex
 renamed.0=classes.dex

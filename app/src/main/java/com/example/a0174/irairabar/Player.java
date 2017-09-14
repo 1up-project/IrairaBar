@@ -24,6 +24,11 @@ public class Player extends Task {
 //        _vec._y = 2;                      //移動ベクトルを下に向ける
     }
 
+    //自機中心円を取得する
+    public final Circle getPt(){
+        return _cir;
+    }
+
     // ベクトルをセットする
     private void setVec(){
         float x = -AcSensor.Inst().getX()*2;    //加速度センサーの情報を取得

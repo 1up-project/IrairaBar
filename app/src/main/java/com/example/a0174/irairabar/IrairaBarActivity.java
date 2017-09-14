@@ -2,14 +2,19 @@ package com.example.a0174.irairabar;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Window;
+import android.view.WindowManager;
 
 public class IrairaBarActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new GameSurfaceView(this));
 
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);//フルスクリーンに設定
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+        setContentView(new GameSurfaceView(this));
         AcSensor.Inst().onCreate(this); // センサー初期化
     }
 
